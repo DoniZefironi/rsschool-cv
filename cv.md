@@ -8,12 +8,14 @@
 
 Примеры кода : 
 
-using System;
-using System.IO;
-using System.Xml.Linq;
+    using System;
 
-class Program
-{
+    using System.IO;
+    
+    using System.Xml.Linq;
+
+    class Program
+    {
     static void Main(string[] args)
     {
         MainMenu();
@@ -377,7 +379,7 @@ class Program
         bool show;
         return show = (SelectMenu(menu) == 1 ? false : true);
     }
-}
+    }
 
 Опыт работы: нет
 
