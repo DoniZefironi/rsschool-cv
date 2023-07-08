@@ -1,25 +1,25 @@
-<p><b>Имя и фамилия:</b> Владислав Шаболда</p>     
-<p><b>Контакты для связи:</b> https://t.me/gadza_devstvenik</p>    
-<p><b>Краткая информация о себе:</b> 
+<p><b>Name and surname:</b> Vladislav Shabolda.</p>     
+<p><b>Contacts for communication:</b> https://t.me/gadza_devstvenik</p>    
+<p><b>Brief information about yourself:</b> 
 <ul>
-<li>Цель жизни - жить и не в чем не нуждаться.</li> 
-<li>Мои сильные стороны :
+<li>The purpose of life is to live and not need anything.</li> 
+<li>My strengths :
     <ol>
-<li>самостоятельность</li> 
-        <li>стрессоустойчивость</li>
-        <li>усидчиваость</li> 
-        <li>креативность</li> 
-        <li>пунктуальность</li> 
-        <li>трудолюбие</li> 
-        <li>повышенная работоспособность</li>
+<li>independence</li> 
+        <li>stress resistance</li>
+        <li>assiduity</li> 
+        <li>creativity</li> 
+        <li>punctuality</li> 
+        <li>industriousness</li> 
+        <li>increased performance</li>
     </ol>
     </li>
-        <li>Опыта работы - нет</li>
-    <li>стремление учиться - безгранично, ради своей цели</li>
+        <li>No work experience</li>
+    <li>the desire to learn is boundless, for the sake of your goal</li>
 </ul>
 </p>    
-<p><b>Навыки:</b> Опыт в языке программирования - С#.</p>    
-<b>Примеры кода:</b> 
+<p><b>Skills:</b> Experience in programming language - С#.</p>    
+<b>Code examples:</b> 
 <code>
     const chai = require("chai");
 const assert = chai.assert;
@@ -47,6 +47,6 @@ describe("Persistent Bugger.", () =>
   return counter;
 }
 </code>
-<p><b>Опыт работы:</b> нет</p>            
-<p><b>Образование:</b> Законченное среднее общее образование, сейчас являюсь студентом БРУ.</p>        
-<b>Английский язык:</b> Я считаю самый низший, я начал учить английский только в этом году. Все 11 классов учил немецкий.
+<p><b>Work experience:</b> no.</p>            
+<p><b>Education:</b> Completed secondary general education, now I am a student of BRU.</p>        
+<b>English language:</b> I consider the lowest, I started learning English only this year. I studied German in all 11 grades.
