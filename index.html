@@ -1,57 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<body>
-<p><b>Name and surname:</b> Vladislav Shabolda.</p>     
-<p><b>Contacts for communication:</b> https://t.me/gadza_devstvenik</p>    
-<p><b>Brief information about yourself:</b> 
-<ul>
-<li>The purpose of life is to live and not need anything.</li> 
-<li>My strengths :
-    <ol>
-<li>independence</li> 
-        <li>stress resistance</li>
-        <li>assiduity</li> 
-        <li>creativity</li> 
-        <li>punctuality</li> 
-        <li>industriousness</li> 
-        <li>increased performance</li>
-    </ol>
-    </li>
-        <li>No work experience</li>
-    <li>the desire to learn is boundless, for the sake of your goal</li>
-</ul>
-</p>    
-<p><b>Skills:</b> Experience in programming language - С#.</p>    
-<b>Code examples:</b> 
-<code>
-    const chai = require("chai");
-const assert = chai.assert;
-chai.config.truncateThreshold=0;
-
-describe("Persistent Bugger.", () => 
-{
-  it("Fixed tests", () => {
-    assert.strictEqual(persistence(39),3);
-    assert.strictEqual(persistence(4),0);
-    assert.strictEqual(persistence(25),2);
-    assert.strictEqual(persistence(999),4);
-  });
-});
-    function persistence(num) 
-{
-  let counter = 0;
-  let digits = num.toString().split('');
-  while (digits.length > 1) 
-  {
-    num = digits.reduce((a, b) => a * b);
-    digits = num.toString().split('');
-    counter++;
-  }
-  return counter;
+<head>
+  <meta charset="UTF-8">
+  <title>My CV</title>
+  <style>
+    .header {
+      width: 1000px;
+      margin: 0 auto 20px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+    .main {
+      width: 1000px;
+      margin: 0 auto 20px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+    .footer {
+      width: 1000px;
+      margin: 0 auto 20px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+    .nav {
+    display: inline-flex;
+    padding: 5px 15px;
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
 }
-</code>
-<p><b>Work experience:</b> no.</p>            
-<p><b>Education:</b> Completed secondary general education, now I am a student of BRU.</p>        
-<b>English language:</b> I consider the lowest, I started learning English only this year. I studied German in all 11 grades.
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-+c9Kj0zBj5XQzXPd2H+GkzU3OgO6xQ4KzYgXOhv7PzX1O4fKON9XH0W8WnYQ35Mx9c4pKb5eJUj+7lCt5fKmYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header> 
+    <div class="header" align="center">
+      <h1>My CV</h1>
+      <nav class="nav">
+          <a href="#about">About</a>
+      </nav>
+      <nav class="nav">
+        <a href="#contacts">Contacts</a>
+    </nav>
+      <nav class="nav">
+          <a href="#experience">Experience</a>
+      </nav>
+      <nav class="nav">
+          <a href="#education">Education</a>
+      </nav>
+      <nav class="nav">
+          <a href="#skills">Skills</a>
+      </nav>
+      <nav class="nav">
+        <a href="#code">Code</a>
+    </nav>
+      <nav class="nav">
+          <a href="#english-language">English language</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <div class="main">
+        <div style="text-align: center; vertical-align: top;">
+          <img src="ot.jpg" alt="Photo" style="border-radius: 50%; width: 25%; height: auto; ">
+        </div>
+        <div style="text-align: center; vertical-align: top;">
+        <h2>Name and surname</h2>
+          <h3>Vladislav Shabolda.</h3>
+        </div>
+      </div>
+    </section>
+    <section id="contacts">
+      <div class="main">
+        <h2>Contacts for communication:</h2>
+        <div>
+          <ul>
+            <li>Email: vladneckt@gmail.com</li>
+            <li>Nickname on Github: DoniZefironi</li>
+            <li>Telegram Username: @gadza_devstvenik</li>
+          </ul>
+          </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="main">
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            <div class="experience">
+              <p class="experience">I have no work experience</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="main">
+        <h3>Brief information about yourself:</h3>
+          <ul>
+           <li>The purpose of life is to live and not need anything.</li> 
+           <li>My strengths :
+              <ol>
+                  <li>independence</li> 
+                  <li>stress resistance</li>
+                  <li>assiduity</li> 
+                  <li>creativity</li> 
+                  <li>punctuality</li> 
+                  <li>industriousness</li> 
+                  <li>increased performance</li>
+              </ol>
+            </li>
+            <li>No work experience</li>
+            <li>The desire to learn is boundless, for the sake of your goal</li>
+          </ul>
+        </div>
+    </section>
+
+    <section id="education">
+      <div class="main">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <div class="education">
+              <h3>Belarusian-Russian University</h3>
+              <p class="education-dates">August 2022 - did not graduate</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="main">
+        <h2>Skills</h2>
+        <ul>
+          <li>Pascal ABC - 100/100</li>
+          <li>C# - 75/100</li>
+          <li>HTML - 30/100</li>
+          <li>CSS - 30/100</li>
+          <li>Git - 80/100</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="code">
+      <div class="main">
+        <h2>Code examples:</h2>
+        <code>
+          <ul>
+            <li>const chai = require("chai");</li>
+            <li>const assert = chai.assert;</li>
+            <li>chai.config.truncateThreshold=0;</li>
+            <li>describe("Persistent Bugger.", () => </li>
+            <li>{</li>
+            <li>it("Fixed tests", () => {</li>
+            <li>assert.strictEqual(persistence(39),3);</li>
+            <li>assert.strictEqual(persistence(4),0);</li>
+            <li>assert.strictEqual(persistence(25),2);</li>
+            <li>assert.strictEqual(persistence(999),4);</li>
+            <li>});</li>
+            <li>});</li>
+            <li>function persistence(num) </li>
+            <li>{</li>
+            <li>let counter = 0;</li>
+            <li>let digits = num.toString().split('');</li>
+            <li>while (digits.length > 1)</li>
+            <li>{</li>
+            <li>num = digits.reduce((a, b) => a * b);</li>
+            <li>digits = num.toString().split('');</li>
+            <li>counter++;</li>
+            <li>}</li>
+            <li>return counter;</li>
+            <li>}</li>
+          </ul>
+        </code>
+      </div>
+    </section>
+
+    <section id="english-language">
+      <div class="main">
+        <h2>English language</h2>
+        <ul>
+          <li>
+            <div class="english language">
+              <p class="english-level">Elementary (A1+,A2)</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer" style="position: relative;">
+      <p style="text-align: center;">&copy; 2023 - My CV App</p>
+      <a href="https://github.com/DoniZefironi"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/DoniZefironi" style="position: absolute; top: 0; right: 0;">
+        <img src="2056021.png" alt="Example Course" width="200" height="100">
+      </a>
+      <a href="https://rs.school/js/" style="position: absolute; top: 0; left: 0;">
+        <img src="rs.jpg" alt="Example Course" width="200" height="100">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
