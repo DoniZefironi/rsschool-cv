@@ -19,3 +19,4 @@ menuButton1.addEventListener("click", function() {
     menuContent1.style.display = "flex";
   }
 });
+console.log("блок <header> +2 \n секция Welcome +2 \n секция About +4 \n секция Favorites +2 \n секция CoffeShop +4 \n секция Contacts +4 \n секция LibraryCard +4 \n блок <footer> + 2 \n Весь контент страницы при этом сохраняется: не обрезается и не удаляется +12 \n На ширине экрана 768рх реализовано адаптивное меню +12")
