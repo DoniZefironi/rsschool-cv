@@ -1,0 +1,52 @@
+<p><b>Name and surname:</b> Vladislav Shabolda.</p>     
+<p><b>Contacts for communication:</b> https://t.me/gadza_devstvenik</p>    
+<p><b>Brief information about yourself:</b> 
+<ul>
+<li>The purpose of life is to live and not need anything.</li> 
+<li>My strengths :
+    <ol>
+<li>independence</li> 
+        <li>stress resistance</li>
+        <li>assiduity</li> 
+        <li>creativity</li> 
+        <li>punctuality</li> 
+        <li>industriousness</li> 
+        <li>increased performance</li>
+    </ol>
+    </li>
+        <li>No work experience</li>
+    <li>the desire to learn is boundless, for the sake of your goal</li>
+</ul>
+</p>    
+<p><b>Skills:</b> Experience in programming language - С#.</p>    
+<b>Code examples:</b> 
+<code>
+    const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
+
+describe("Persistent Bugger.", () => 
+{
+  it("Fixed tests", () => {
+    assert.strictEqual(persistence(39),3);
+    assert.strictEqual(persistence(4),0);
+    assert.strictEqual(persistence(25),2);
+    assert.strictEqual(persistence(999),4);
+  });
+});
+    function persistence(num) 
+{
+  let counter = 0;
+  let digits = num.toString().split('');
+  while (digits.length > 1) 
+  {
+    num = digits.reduce((a, b) => a * b);
+    digits = num.toString().split('');
+    counter++;
+  }
+  return counter;
+}
+</code>
+<p><b>Work experience:</b> no.</p>            
+<p><b>Education:</b> Completed secondary general education, now I am a student of BRU.</p>        
+<b>English language:</b> I consider the lowest, I started learning English only this year. I studied German in all 11 grades.
